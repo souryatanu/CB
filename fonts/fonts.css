@@ -1,0 +1,16 @@
+#para1{
+  font-size: 10vh;
+  /* 1vh =1/100 of window height */
+}
+#para2{
+  font-family: monospace;
+  /* monospace takes similar size for all characters */
+}
+#para3{
+  font-style: italic;
+  font-weight: bold;
+}
+#para4{
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
