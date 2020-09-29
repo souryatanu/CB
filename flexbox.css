@@ -1,0 +1,41 @@
+.container{
+  background-color: lightpink;
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  /*  no wrap is the default */
+  /* flex-wrap: nowrap; */
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  height: 400px;
+}
+.item{
+  background-color:darkcyan;
+  margin: 20px;
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+  font-size: 30px;
+  flex-grow: 1;
+  /*  If flex-grow: 1; then they will grow to the space given to them */
+ /* Use flex shrink after putting flex-wrap: nowrap;  */
+}
+#item12{
+  /* flex-grow: 1; */
+  order: 2;
+}
+
+#item13{
+  /* this is grows 5 times as much as the item12 (remeber not in size , but the growth) */
+  /* flex-grow: 5; */
+  order:1;
+}
+#item11{
+  order: 1;
+  flex-shrink: 1;
+  align-self: flex-start;
+}
